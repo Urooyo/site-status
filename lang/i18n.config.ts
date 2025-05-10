@@ -5,15 +5,15 @@ import kr from "./locales/ko-KR.json";
 
 export default defineI18nConfig(() => ({
   legacy: false,
-  locale: "zh-CN",
+  locale: "ko-KR",
   messages: { "zh-CN": zh, "ja-JP": jp, "ko-KR": kr, en },
-  fallbackLocale: "zh-CN",
+  fallbackLocale: "ko-KR",
   // 语言偏好
   detectBrowserLanguage: {
     useCookie: true,
     cookieKey: "i18n_redirected",
     alwaysRedirect: true,
-    fallbackLocale: "zh-CN",
+    fallbackLocale: "ko-KR",
     redirectOn: "root",
   },
 }));

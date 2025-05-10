@@ -136,7 +136,7 @@ export default defineNuxtConfig({
   },
   // i18n
   i18n: {
-    vueI18n: "./lang/i18n.config.ts",
+    configPath: "./lang/i18n.config.ts",
   },
   // icon
   icon: {

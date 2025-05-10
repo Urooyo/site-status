@@ -6,7 +6,8 @@
     :style="{ color: iconColor }"
   >
     <div class="nav-content">
-      <span class="logo">{{ config.public.siteTitle }}</span>
+      <span class="logo">Moffu 활성 상태</span>
+      <!-- {{ config.public.siteTitle }} -->
       <n-flex align="center" justify="end">
         <!-- 明暗切换 -->
         <Transition name="fade" mode="out-in">
